@@ -1,0 +1,43 @@
+body{
+  background-color: #24353f;
+}
+input{
+  background:none !important;
+  color: white !important;
+}
+input::placeholder{
+  color: white !important;
+}
+.login-card{
+  background-color: #24353f;
+  box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+  color: #17a2b8;
+}
+button{
+  color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+}
+button:hover{
+  background-color: #17a2b8 !important;
+  color: white !important;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.welcome{
+  background-color: #24353f;
+  box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1);
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.logOut{
+  position: fixed;
+  right: 20px;
+  top: 10px;
+}
